@@ -1,0 +1,168 @@
+
+
+/* Nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 71px 31px 69px;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    width: auto;
+    background-color: white;
+    font-size: 24px;
+
+}
+.nav .menu{
+    display: flex;
+}
+ .nav .menu li{
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    position: relative;
+}
+.nav .menu li.selected::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border: 2px solid #5CA720;
+    width: 50%;
+    line-height: 10px;
+
+}
+
+.nav .menu li a{
+    color: #161616;
+    text-decoration: none;
+}
+.icons img{
+    margin-left: 18.5px;
+    margin-right: 18.5px;
+    
+}
+
+/* Cabecalho*/
+
+.cabecalho{
+    background-image: url(../img/background.svg);
+    background-color: #ADDE87;
+    text-align: center;
+    padding: 84px 0 82px 0;
+}
+.conteudo{
+    display: flex;
+    padding: 48px 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.conteudo .produto{
+    margin: 30px 97px;
+}
+.conteudo .produto .titulo_produto{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#161616;
+    margin-top: 23px;
+    margin-bottom: 11px;
+    
+}
+.conteudo .produto .valor_produto{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5CA720 ;
+}
+.conteudo .produto .cifrao{
+    color: #161616;
+    font-size: 20px;
+
+}
+/*FOOTER*/
+
+.first_box{
+    border-top: 1px solid #A5A1A1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.first_box .link{
+    margin: 40px 71px 50px;
+}
+
+.first_box .link li {
+    margin: 10px 0;
+
+}
+.second_box{
+    border-top: 1px solid #A5A1A1;
+    display: flex;
+    justify-content: space-between;
+}
+.second_box .social_media{
+    margin-top: 43px;
+    margin-left: 71px;
+    margin-bottom: 55px;
+
+}
+.second_box .social_media img{
+    margin-right: 20px;
+
+}
+.payments {
+    margin-top: 55px;
+    margin-right: 70px;
+    margin-bottom: 58px;
+    display: flex;
+    align-items: center;
+    
+}
+.payments .icons{
+    margin-left: 24px;
+}
+ 
+/* NEWSLETTER */
+
+.newsletter{
+    align-self: center;
+    margin-right: 70px;
+
+}
+.newsletter.form{
+    display: flex;
+}
+
+.newsletter .form .botao{
+    background-color: #51b248;
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 33px;
+    padding-left: 33px;
+    border: none;
+    border-radius: 0  5px 5px 0;
+    height: 54px;
+
+
+}
+.newsletter .form .email{
+    height: 54px;
+    border: 1px solid #d9d9d9;
+    background-color: #f8f8f8;
+    outline: none;
+    width: 397px;
+    padding-left: 13px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px;
+
+}
+
+.newsletter .description{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 18px;
+
+}
